@@ -25,3 +25,13 @@ img {
   max-width: 100%;
   display: block;
 }
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+}

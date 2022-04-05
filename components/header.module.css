@@ -1,0 +1,13 @@
+.header {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.a {
+    color: aliceblue;
+}
