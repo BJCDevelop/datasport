@@ -4,7 +4,7 @@ export default function Footer(){
     return (        
         <div className={footerStyles.container}>
             <section>
-                <p>I am footer component</p>
+                <p>I am footer component new</p>
             </section>
         </div>    
     )
