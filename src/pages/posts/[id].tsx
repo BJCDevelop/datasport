@@ -1,6 +1,7 @@
 import Layout from '../../../components/layout'
 import { getAllPostIds, getPostData } from '../../../lib/posts'
 import Head from 'next/head'
+import Link from 'next/link'
 import Date from '../../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { GetStaticProps, GetStaticPaths } from 'next'
@@ -26,6 +27,11 @@ export default function Post({
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <div className={utilStyles.backToBlog}>
+        <Link href="/blog">
+            <a>← Back to blog</a>
+        </Link>
+      </div>
     </Layout>
   )
 }
