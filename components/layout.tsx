@@ -7,7 +7,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 const name = 'Braulio Chávez'
-export const siteTitle = 'Braulio Sample Website'
+export const siteTitle = 'Datasport Website'
 
 export default function Layout({
   children,
