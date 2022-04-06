@@ -4,7 +4,7 @@ import Link from 'next/link';
 const path = [
   { uid: 21, name: ' Home', id: 1, path: '/' },
   { uid: 31, name: 'Blog', id: 2, path: '/blog' },
-  { uid: 41, name: 'About', id: 3, path: 'About' }
+  { uid: 41, name: 'About', id: 3, path: '/about' }
 ];
 
 export default function Header(){
