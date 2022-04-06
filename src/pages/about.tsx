@@ -9,7 +9,9 @@ import { GetStaticProps } from 'next'
 function About() {
     return(
         <Layout>
-            <div>About</div>
+            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                <div>About</div>
+            </section>
         </Layout>
     )
   }

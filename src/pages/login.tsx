@@ -9,7 +9,7 @@ import { GetStaticProps } from 'next'
 export default function Login() {
     return (
         <Layout>
-            <div>About</div>
+            <div>Login</div>
         </Layout>
     )
 }
