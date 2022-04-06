@@ -20,7 +20,7 @@ export default function Blog({
     return (
       <Layout>
         <Head>
-          <title>{siteTitle}</title>
+          <title>{siteTitle} - Blog</title>
         </Head>
         {blog ? (
           <>

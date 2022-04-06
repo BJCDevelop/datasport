@@ -9,7 +9,12 @@ import { GetStaticProps } from 'next'
 export default function Login() {
     return (
         <Layout>
-            <div>Login</div>
+            <Head>
+                <title>{siteTitle} - Login</title>
+            </Head>
+            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                <h2 className={utilStyles.headingLg}>Login</h2>
+            </section>
         </Layout>
     )
 }

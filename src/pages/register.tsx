@@ -6,18 +6,15 @@ import Link from 'next/link'
 import Date from '../../components/date'
 import { GetStaticProps } from 'next'
 
-function About() {
-    return(
+export default function Register() {
+    return (
         <Layout>
             <Head>
-                <title>{siteTitle} - About</title>
+                <title>{siteTitle} - Register</title>
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>About</h2>
+                <h2 className={utilStyles.headingLg}>Register</h2>
             </section>
         </Layout>
     )
-  }
-  
-export default About
-  
+}
