@@ -23,7 +23,7 @@ const pathRight = [
 export default function Header(){
     return (       
         <nav className={headerStyles.nav}>
-            <Container className={headerStyles.Container}>
+            <Container fluid>
                 <Row>
                     <Col xs="2">
                         <ul className={headerStyles.ul}>
@@ -31,8 +31,9 @@ export default function Header(){
                                 return (
                                 <li key={value.uid}>
                                     <Link href={value.path}>
-                                        <Image className="" alt="Logo Home" src={Logo} width={100} height={50}/>
-                                        {/* <a className={headerStyles.a}> {value.name} </a> */}
+                                        <a>
+                                            <Image placeholder="blur" className="" alt="Logo Home" src={Logo} width={80} height={40}/>
+                                        </a>
                                     </Link>
                                 </li>
                                 );

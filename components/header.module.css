@@ -6,6 +6,7 @@
     vertical-align: center;
     padding-left: 1em;
     padding-right: 1em;
+    margin: 0;
 }
 
 .a {
@@ -14,10 +15,7 @@
 
 .ul {
     margin: 0;
-}
-
-.Container {
-    max-width: '100%';
-    padding-left: 1em;
-    padding-right: 1em;
+    align-items: center;
+    display: flex;
+    height: 100%;
 }
